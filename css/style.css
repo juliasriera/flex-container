@@ -116,11 +116,20 @@ footer {
 
       }
 
-@media all and (max-width: 800px) {
+ 
+
+@media all and (max-width: 900px) {
    section {
      flex-direction: column;
      background-color: #ffff00;
    }
+
+   .flex-container{
+    margin: auto;
+    padding: 0px;
+  }
+
+  
 
 }
 
