@@ -159,8 +159,9 @@ footer {
            background-color: #ffff00;
          }
          
-         article {
-           display: block;
+         .article {
+           flex: 1 1 100%;
+
          }
       }
  
