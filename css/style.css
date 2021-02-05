@@ -147,9 +147,25 @@ footer {
 
       }
 
+@media all and (max-width: 576px) {
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+      
+         section {
+           flex-direction: column;
+           background-color: #ffff00;
+         }
+         
+         article {
+           display: block;
+         }
+      }
  
 
-@media all and (max-width: 767px) {
+@media all and (min-width: 576px) and (max-width: 767px) {
 
   *{
       margin: 1px;
